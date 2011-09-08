@@ -26,8 +26,8 @@ import signal
 import socket
 import asyncore
 
-from buzzer.asyncqt import ServerDelegate, ClientDelegate
-from buzzer.networking import Server, Client
+from buzzr.asyncqt import ServerDelegate, ClientDelegate
+from buzzr.networking import Server, Client
 
 from PyQt4 import QtCore, QtGui, uic
 
